@@ -24,7 +24,7 @@ footer{
   position: relative;
   bottom: 0px;
   width: 100%;
-  background: #111;
+  background: #2e8e7f;
 }
 .main-content{
   padding: 40px;
@@ -75,19 +75,20 @@ footer{
 .left .content .social a span{
   height: 40px;
   width: 40px;
-  background: #1a1a1a;
+  background: #fff;
   line-height: 40px;
   text-align: center;
   font-size: 18px;
   border-radius: 5px;
   transition: 0.3s;
+  color: #2e8e7f;
 }
-.left .content .social a span:hover{
-  background: #f12020;
-}
+/* .left .content .social a span:hover{
+  background: #27af2e;
+} */
 .center .content .fas{
   font-size: 1.4375rem;
-  background: #1a1a1a;
+  background: #fff;
   height: 45px;
   width: 45px;
   line-height: 45px;
@@ -95,10 +96,11 @@ footer{
   border-radius: 50%;
   transition: 0.3s;
   cursor: pointer;
+  color: #2e8e7f;
 }
-.center .content .fas:hover{
+/* .center .content .fas:hover{
   background: #f12020;
-}
+} */
 .center .content .text{
   font-size: 1.0625rem;
   font-weight: 500;
@@ -110,7 +112,7 @@ footer{
 .right form .text{
   font-size: 1.0625rem;
   margin-bottom: 2px;
-  color: #656565;
+  color: #fff;
 }
 .right form .msg{
   margin-top: 10px;
@@ -118,7 +120,7 @@ footer{
 .right form input, .right form textarea{
   width: 100%;
   font-size: 1.0625rem;
-  background: #151515;
+  background: #fff;
   padding-left: 10px;
   border: 1px solid #222222;
 }
@@ -131,13 +133,14 @@ footer{
 }
 .right form .btn{
   margin-top: 10px;
+  padding: auto;
 }
 .right form .btn button{
   height: 40px;
   width: 100%;
   border: none;
   outline: none;
-  background: #f12020;
+  background: #fff;
   font-size: 1.0625rem;
   font-weight: 500;
   cursor: pointer;

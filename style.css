@@ -67,7 +67,7 @@ body{
 	padding: 0;
 }
 .navbar-brand img{
-	height: 35px;
+	height: 50px;
 	width: auto;
 	display: block;
     /* filter: brightness(10%);
@@ -218,7 +218,7 @@ body.hero-anime p{
 
 /* body */
 .main_container{
-	margin: -5rem 4rem 0rem 4rem;
+	margin: -4rem 4rem 0rem 4rem;
 	display: flex;
 }
 .leftside{
