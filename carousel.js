@@ -9,13 +9,13 @@ $(function(){
     });
     $('#moveLeft').on('click', function(){
       var prev=current;
-      current = current- 1;
+      current = current - 1;
       setSlide(prev, current);
     });
     function setSlide(prev, next){
       var slide = current;
       if(next>total-1){
-       slide=0;
+        slide=0;
         current=0;
       }
       if(next<0){

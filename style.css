@@ -67,12 +67,12 @@ body{
 	padding: 0;
 }
 .navbar-brand img{
-	height: 28px;
+	height: 35px;
 	width: auto;
 	display: block;
-  filter: brightness(10%);
+    /* filter: brightness(10%);
 	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
+	transition : all 0.3s ease-out; */
 }
 .navbar-toggler {
 	float: right;
@@ -218,21 +218,28 @@ body.hero-anime p{
 
 /* body */
 .main_container{
-	margin: 0rem 4rem 0rem 4rem;
+	margin: -5rem 4rem 0rem 4rem;
 	display: flex;
 }
 .leftside{
+	padding: 1rem;
 	flex-basis: 80%;
 	width:80%;
 	border-right: solid;
 	border-width: 3px;
+	/* margin-right: 10px; */
 }
 .rightside{
-	width:20%;
-	background-color: #d5e888;
+	width: 20%;
+	align-items: center;
+	/* margin: auto; */
+	margin-left: 1rem;
 }
 
-
+.rightside h3{
+	margin-left: 1rem;
+	margin-bottom: 5px;
+}
 /* #Media
 ================================================== */
 
