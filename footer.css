@@ -134,6 +134,7 @@ footer{
 .right form .btn{
   margin-top: 10px;
   padding: auto;
+  padding: 0;
 }
 .right form .btn button{
   height: 40px;
@@ -145,7 +146,7 @@ footer{
   font-weight: 500;
   cursor: pointer;
   transition: .3s;
-  padding: 0 5px 0 5px;
+  padding: 0 15px 0 15px;
   border-radius: 12px;
 }
 .right form .btn button:hover{
