@@ -60,7 +60,7 @@ footer{
   content: '';
   height: 2px;
   width: 15%;
-  background: #f12020;
+  background: #fff;
   top: -10px;
 }
 .left .content p{
@@ -133,12 +133,11 @@ footer{
 }
 .right form .btn{
   margin-top: 10px;
-  padding: auto;
   padding: 0;
 }
 .right form .btn button{
   height: 40px;
-  width: 100%;
+  width: 200px;
   border: none;
   outline: none;
   background: #fff;
@@ -146,13 +145,11 @@ footer{
   font-weight: 500;
   cursor: pointer;
   transition: .3s;
-  padding: 0 15px 0 15px;
-  border-radius: 12px;
+  padding: 5px;
 }
-.right form .btn button:hover{
+/* .right form .btn button:hover{
   background: #000;
-  color: #fff;
-}
+} */
 .bottom center{
   padding: 5px;
   font-size: 0.9375rem;

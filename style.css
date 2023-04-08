@@ -289,5 +289,7 @@ body.hero-anime p{
 		margin-top: 10px !important;
 		margin-bottom: 20px !important;
 	}
-	
+	.search-btn button{
+		color: #2e8e7f;
+	}
 }
