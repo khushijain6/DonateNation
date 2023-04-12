@@ -216,6 +216,16 @@ body.hero-anime p{
 	background-color: rgba(129,103,169,.6);
 }
 
+#search-btn{
+	background-color: #2e8e7f;
+	color: #fff;
+	padding: 0 7px 0 7px;
+}
+
+#inp{
+	width: 100px;
+}
+
 /* body */
 .main_container{
 	margin: -4rem 4rem 0rem 4rem;
@@ -226,8 +236,8 @@ body.hero-anime p{
 	flex-basis: 80%;
 	width:80%;
 	border-right: solid;
-	border-width: 3px;
-	/* margin-right: 10px; */
+	border-width: 2px;
+	border-color:rgba(138, 155, 165, 0.15);
 }
 .rightside{
 	width: 20%;
@@ -288,8 +298,5 @@ body.hero-anime p{
 	.dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
 		margin-top: 10px !important;
 		margin-bottom: 20px !important;
-	}
-	.search-btn button{
-		color: #2e8e7f;
 	}
 }
